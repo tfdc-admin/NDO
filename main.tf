@@ -14,3 +14,11 @@ provider "mso" {
     url      = var.nd_url
     platform = var.platform
 }
+
+data "mso_user" "user" {
+  username = "admin"
+}
+
+output "user" {
+  value = data.mso_user.user
+}
