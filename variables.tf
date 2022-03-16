@@ -14,6 +14,7 @@ variable "platform" {
     type = string
 }
 
+/*
 variable "TF_CLI_ARGS_apply" {
     type = string
 }
@@ -25,4 +26,4 @@ variable "TF_CLI_ARGS_plan" {
 variable "TFE_PARALLELISM" {
     type = number
 }
-
+*/
